@@ -10,19 +10,19 @@
         <shape
             android:dither="true"
             android:shape="rectangle" >
-            <corners android:radius="2dp" />
+            <corners android:radius="3dp" />
 
             <solid android:color="@android:color/white" />
 
             <stroke
-                android:width="0px"
+                android:width="1px"
                 android:color="@color/stroke" />
 
-            <padding
-                android:bottom="8dp"
-                android:left="8dp"
-                android:right="8dp"
-                android:top="8dp" />
+<!--             <padding -->
+<!--                 android:bottom="8dp" -->
+<!--                 android:left="8dp" -->
+<!--                 android:right="8dp" -->
+<!--                 android:top="8dp" /> -->
         </shape>
     </item>
 

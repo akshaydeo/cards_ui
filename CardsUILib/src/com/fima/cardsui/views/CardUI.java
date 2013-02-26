@@ -15,6 +15,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.FrameLayout;
+import android.widget.ListView;
 
 import com.fima.cardsui.R;
 import com.fima.cardsui.StackAdapter;
@@ -49,6 +50,14 @@ public class CardUI extends FrameLayout {
 	private ViewGroup mQuickReturnView;
 	private View mPlaceholderView;
 	private QuickReturnListView mListView;
+	public ListView getmListView() {
+		return mListView;
+	}
+
+	public void setmListView(QuickReturnListView mListView) {
+		this.mListView = mListView;
+	}
+
 	private int mMinRawY = 0;
 	private int mState = STATE_ONSCREEN;
 	private int mQuickReturnHeight;

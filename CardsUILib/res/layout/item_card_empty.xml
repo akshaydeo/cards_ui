@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/card_background_shadow"
  
-    android:paddingTop="20dp" >
+    android:paddingTop="20dp" 
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
 
 </FrameLayout>
